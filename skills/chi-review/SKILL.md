@@ -111,6 +111,7 @@ Review（正文）/ Originality、Correctness、Novelty、Importance、Clarity &
 
 ## 8. 可复用批评库（含防 rebuttal 预案）
 
+- **套用前置检查**：原型匹配 ≠ 批评成立。每条批评在写入前必须在当前论文中验证触发条件（grep/精读命中）；禁止因论文属于某原型就优先搜寻该原型的"高频批评"，审读注意力顺序仍按 §3 精读清单执行。
 - **null ≠ 无效应**：摘要写 "did not mitigate" 而 CI 容纳实质下降 → 统一 "did not detectably" + TOST/MDES；预堵 post-hoc power 狡辩："should not **add** a post hoc power calculation as confirmation of a null"（论文无 power 计算时用 add）。
 - **scripted rule vs trained model**：人工裁决规则 ≠ 训练模型实际输出；要求措辞统一 + 量化二者之差（勿借用论文未在摘要/贡献使用的术语，如 dose——先 grep 出现位置）。
 - **核心机制零评估**：标题贡献本体未被研究触及 → 双路径（收窄宣称 vs 补小实验），"A new study should be treated as necessary only if the authors retain the empirical claim"。
@@ -185,7 +186,7 @@ Review（正文）/ Originality、Correctness、Novelty、Importance、Clarity &
 
 ### 环境
 
-- 辅助脚本（如有）：引用核验 `_check_refs.py`、行号定位 `_locate_lines.py`，存于审稿目录。
+- 辅助脚本（如有）：引用核验 `_check_refs.py`，存于审稿目录。
 
 ### 批评模式库（匿名化）
 
@@ -194,6 +195,6 @@ Review（正文）/ Originality、Correctness、Novelty、Importance、Clarity &
 | 设计探针类 | RR | "涌现需求"实为预置设计（循环论证）、实现组件悬空、伦理/报酬细节缺失、招募渠道逐阶段核验 | 论文已部分声明 → 升级为具体化要求；用户错前提用正文证据纠正 |
 | 计算研究+人类实验类 | ARR | 实验操纵为脚本规则而非训练模型输出、null 措辞过度、刺激物分配未报告、统计规范超平均 | 单条件值与跨条件范围口径混用是最易被反驳的硬伤；统计扎实 → confidential 建议保护 |
 | 交互系统+首次使用研究 | RRX | 标题核心机制零评估、验收率证据地位、facilitator 依赖、区间推断混杂 | 引文逐字核对；证据来源类型匹配；程序性缺口（伦理/报酬/招募）逐项确认；字数卡边界写 confidential |
-| 用户本人论文的审稿 | RR | 复现分析无基数、反馈输出未审计、材料标签无人类验证、编码范式混用 | RRX 判别法——"AC 若问修订后你是否愿意辩护" |
 
+**模式库使用规则**：本表是事后校准存档，不是评分预设。"当时档位"记录的是该组批评在那篇中累积支撑的严重度，**不得作为评分理由引用**；推荐档位一律从 §6 判据对当前论文自底向上推导，推导在前、查表在后
 量表校准判据：双 Agree（Novelty+Importance）+ Correctness neither 支撑 RR 不算过低；单 Agree + Correctness neither 与 Reject/RR 复合推荐不冲突——逐案核对，不为迁就推荐改分。"论文已陈述 X"类正向确认必须逐条反查后才写。
