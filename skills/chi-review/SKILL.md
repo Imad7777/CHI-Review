@@ -169,7 +169,7 @@ Review（正文）/ Originality、Correctness、Novelty、Importance、Clarity &
 
 每篇一节：总评逐句表 → Major 逐条判定 → Minor 逐条判定 → Form/Confidential/Nomination → 跨篇汇总表（优先级 | 篇目 | 条目 | 问题 | 修改建议）。✅/⚠️/❌ + 原文锚定；修正前轮错误显式标注"修正"。
 
-## C. 外部审查消化模式
+## C. 外部审查模式
 
 触发：用户转交第三方核查报告，要求据此复核原文并修订意见。
 
