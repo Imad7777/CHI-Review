@@ -27,6 +27,7 @@ PDF 提取（pymupdf + 行号锚点）、结构精读清单、11 项 grep 证据
 ## 相关skills
 
 配套技能：`ref-check`（引用真实性核验，Crossref + arXiv API）。https://github.com/Imad7777/ref-check
+
 配套技能：`paper-citation-tracer`（引文溯源工具 / 论文中引文表述的合理性检验）。https://github.com/Imad7777/paper-citation-tracer
 
 ## 免责声明
