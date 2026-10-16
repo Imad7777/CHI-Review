@@ -185,10 +185,9 @@ Review（正文）/ Originality、Correctness、Novelty、Importance、Clarity &
 
 ### 环境
 
-- 论文与意见文件常在 `Desktop/审稿/`；核查报告可能在 `E:/workbuddy/...` 或由用户粘贴。路径含中文与空格，PowerShell 读写用 `-LiteralPath`。
 - 辅助脚本（如有）：引用核验 `_check_refs.py`、行号定位 `_locate_lines.py`，存于审稿目录。
 
-### 批评模式库（匿名化，不含投稿号/论文名/可识别数字）
+### 批评模式库（匿名化）
 
 | 原型 | 推荐档 | 核心批评模式 | 沉淀教训 |
 |---|---|---|---|
